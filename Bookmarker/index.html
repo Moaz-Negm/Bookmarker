@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body class="bg-black">
+
+
+
+    <h1 class="text-white me-5 w-75 mx-auto mt-5">Product managment system</h1>
+    <div class="container mt-5">
+       
+
+
+
+
+        <div class="form-group">
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="productPrice" placeholder="name@example.com">
+                <label for="productPrice">Product Price</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="productDesc" placeholder="Password">
+                <label for="productDesc">Product Desc</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input list="cats" type="text" class="form-control" id="productCategory" placeholder="name@example.com">
+                <label for="productCategory">Product Category</label>
+                <datalist id="cats">
+                    <option value="TV" />
+                    <option value="Mobile" />
+                    <option value="Screens" />
+                    
+                </datalist>
+            </div>
+            
+            <div class="form-floating mb-3">
+                <input type="file" class="form-control " id="productImage" placeholder="Password">
+                <label for="productImage"></label>
+            </div>
+<button class="btn btn-info mt-2">Add Product</button>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
